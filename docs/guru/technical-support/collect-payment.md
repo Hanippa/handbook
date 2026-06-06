@@ -29,7 +29,7 @@
 
 **צילום מסך נדרש כאן:** מסך פרטי קבלה או פרטי משלם
 
-![יש להוסיף כאן צילום מסך](../assets/images/collect-payment/collect-payment-customer-information.gif)
+![פרטי קבלה](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/collect-payment/collect-payment-customer-information.gif)
 
 ### שלב 2: בחירת מק"ט לתשלום
 
@@ -37,7 +37,7 @@
 
 **צילום מסך נדרש כאן:** שדה מק"ט או פרטי פריט לתשלום
 
-![יש להוסיף כאן צילום מסך](../assets/images/collect-payment/collect-payment-sku-choice.gif)
+![בחירת מק"ט לתשלום](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/collect-payment/collect-payment-sku-choice.gif)
 
 ### שלב 3: לחיצה על פעולת קבלת תשלום
 
@@ -45,7 +45,7 @@
 
 **צילום מסך נדרש כאן:** כפתור פעולת קבלת תשלום
 
-![יש להוסיף כאן צילום מסך](../assets/images/collect-payment/collect-payment-action-button.gif)
+![כפתור קבלת תשלום](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/collect-payment/collect-payment-action-button.gif)
 
 ### שלב 4: בחירת אמצעי תשלום ומילוי הפרטים
 
@@ -59,7 +59,7 @@
 
 **צילום מסך נדרש כאן:** בחירת אמצעי תשלום ומילוי פרטי התשלום
 
-![יש להוסיף כאן צילום מסך](../assets/images/collect-payment/collect-payment-choose-payment-method.gif)
+![בחירת אמצעי תשלום](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/collect-payment/collect-payment-choose-payment-method.gif)
 
 ### שלב 5: אישור קבלת התשלום
 
@@ -67,7 +67,7 @@
 
 **צילום מסך נדרש כאן:** מסך אישור או קבלת תשלום
 
-![יש להוסיף כאן צילום מסך](../assets/images/collect-payment/collect-payment-accept-payment.gif)
+![אישור קבלת תשלום](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/collect-payment/collect-payment-accept-payment.gif)
 
 ### שלב 6: שליחת הקבלה ללקוח
 
