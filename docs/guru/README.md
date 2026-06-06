@@ -15,6 +15,8 @@
 ### תמיכה טכנית
 
 - [פתיחת קריאת תיקון](./technical-support/open-repair-ticket.md)
+- [איתור מכשיר ספציפי](./technical-support/locate-specific-device.md)
+- [גביית תשלום](./technical-support/collect-payment.md)
 
 ### מחזור חיי מכשירים
 
