@@ -20,15 +20,16 @@ jobs:
         uses: konstfish/quartz-build-action@v7
         with:
           source: docs
-          destination: public
           page_title: Handbook
           quartz_custom_css: .github/quartz/custom.scss
 
       - name: Fix published screenshot paths
         run: node .github/scripts/fix-screenshot-paths.cjs
+        env:
+          QUARTZ_OUTPUT_DIR: _site
 
       - name: Publish to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./_site
