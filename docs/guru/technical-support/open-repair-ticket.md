@@ -30,19 +30,19 @@
 
 אם צריך עזרה באיתור המכשיר, יש לעבור קודם למדריך [איתור מכשיר ספציפי](./locate-specific-device.md).
 
-![יש להוסיף כאן צילום מסך](../assets/images/open-repair-ticket/ticket-system-home.gif)
+![יש להוסיף כאן צילום מסך](/handbook/guru/assets/images/open-repair-ticket/ticket-system-home.gif)
 
 ### שלב 2: מילוי פרטי הקריאה
 
 להזין את פרטי העובד, פרטי המכשיר, סיבת הכנסת המכשיר למעבדה, וקטגוריית התיקון המתאימה, למשל מכשיר לא נדלק, מסך תקול, סוללה נפוחה.
 
-![יש להוסיף כאן צילום מסך](../assets/images/open-repair-ticket/ticket-system-home-detailes.gif)
+![יש להוסיף כאן צילום מסך](/handbook/guru/assets/images/open-repair-ticket/ticket-system-home-detailes.gif)
 
 ### שלב 3: גביית תשלום עבור התיקון
 
 אם התיקון דורש תשלום, יש לבצע גבייה לפי מדריך [גביית תשלום](./collect-payment.md).
 
-![יש להוסיף כאן צילום מסך](../assets/images/open-repair-ticket/ticket-system-home-payment.gif)
+![יש להוסיף כאן צילום מסך](/handbook/guru/assets/images/open-repair-ticket/ticket-system-home-payment.gif)
 
 ### שלב 4: שליחה ושמירת מספר הקריאה
 

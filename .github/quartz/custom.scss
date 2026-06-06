@@ -1,0 +1,36 @@
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+.page,
+.popover-hint,
+article,
+main {
+  direction: rtl;
+  text-align: right;
+}
+
+ul,
+ol {
+  padding-right: 1.5rem;
+  padding-left: 0;
+}
+
+li.task-list-item {
+  padding-right: 0.2rem;
+  padding-left: 0;
+}
+
+pre,
+code,
+kbd,
+samp {
+  direction: ltr;
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
