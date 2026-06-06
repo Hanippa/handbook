@@ -9,9 +9,10 @@
 
 ## לפני שמתחילים
 
-- [ ] לוודא מה סכום התשלום הנדרש
-- [ ] לוודא מי משלם
-- [ ] לוודא שיש מספר קריאה, הזמנה, לקוח, או מזהה אחר שאליו צריך לשייך את התשלום
+- [ ] לוודא שהאדם שממנו גובים את התשלום הוא בגיר
+- [ ] לוודא שהאדם שממנו גובים את התשלום מסוגל לבצע את התשלום
+- [ ] לוודא שהפריט או השירות שמוכרים מותר למכירה
+- [ ] לוודא שהפריט חדש, תקין, ולא פגום
 
 ## מה צריך להכין
 
@@ -27,23 +28,17 @@
 
 למלא את פרטי הקבלה של המשלם: שם, מספר טלפון, מספר תעודת זהות או מספר עסק, וכתובת.
 
-**צילום מסך נדרש כאן:** מסך פרטי קבלה או פרטי משלם
-
 ![פרטי קבלה](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/collect-payment/collect-payment-customer-information.gif)
 
 ### שלב 2: בחירת מק"ט לתשלום
 
 למלא את המק"ט המתאים לתשלום. אם אין מק"ט ייעודי, להשאיר את מק"ט ברירת המחדל שמופיע במערכת.
 
-**צילום מסך נדרש כאן:** שדה מק"ט או פרטי פריט לתשלום
-
 ![בחירת מק"ט לתשלום](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/collect-payment/collect-payment-sku-choice.gif)
 
 ### שלב 3: לחיצה על פעולת קבלת תשלום
 
 לאחר מילוי פרטי הקבלה ובחירת המק"ט, ללחוץ על כפתור הפעולה לקבלת תשלום.
-
-**צילום מסך נדרש כאן:** כפתור פעולת קבלת תשלום
 
 ![כפתור קבלת תשלום](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/collect-payment/collect-payment-action-button.gif)
 
@@ -57,15 +52,11 @@
 
 אפשר לשלב כמה אמצעי תשלום כדי להגיע לסכום המלא שמופיע בראש המסך.
 
-**צילום מסך נדרש כאן:** בחירת אמצעי תשלום ומילוי פרטי התשלום
-
 ![בחירת אמצעי תשלום](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/collect-payment/collect-payment-choose-payment-method.gif)
 
 ### שלב 5: אישור קבלת התשלום
 
 לאשר את קבלת התשלום במערכת ולוודא שהסכום המלא התקבל.
-
-**צילום מסך נדרש כאן:** מסך אישור או קבלת תשלום
 
 ![אישור קבלת תשלום](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/collect-payment/collect-payment-accept-payment.gif)
 
