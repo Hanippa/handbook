@@ -1,15 +1,28 @@
 const fs = require("fs")
 const path = require("path")
 
-const root = "public"
+const root = process.env.QUARTZ_OUTPUT_DIR || "public"
 const replacements = new Map([
   ['<html lang="en" dir="ltr">', '<html lang="he" dir="rtl">'],
+  ['<html lang="en">', '<html lang="he" dir="rtl">'],
   ['href="../../index.css"', 'href="/handbook/index.css"'],
+  ['href="../index.css"', 'href="/handbook/index.css"'],
+  ['href="index.css"', 'href="/handbook/index.css"'],
   ['src="../../prescript.js"', 'src="/handbook/prescript.js"'],
+  ['src="../prescript.js"', 'src="/handbook/prescript.js"'],
+  ['src="prescript.js"', 'src="/handbook/prescript.js"'],
   ['src="../../postscript.js"', 'src="/handbook/postscript.js"'],
+  ['src="../postscript.js"', 'src="/handbook/postscript.js"'],
+  ['src="postscript.js"', 'src="/handbook/postscript.js"'],
   ['href="../../static/', 'href="/handbook/static/'],
+  ['href="../static/', 'href="/handbook/static/'],
+  ['href="static/', 'href="/handbook/static/'],
   ['fetch("../../static/', 'fetch("/handbook/static/'],
+  ['fetch("../static/', 'fetch("/handbook/static/'],
+  ['fetch("static/', 'fetch("/handbook/static/'],
   ['href="../..">Handbook</a>', 'href="/handbook/">Handbook</a>'],
+  ['href="..">Handbook</a>', 'href="/handbook/">Handbook</a>'],
+  ['href=".">Handbook</a>', 'href="/handbook/">Handbook</a>'],
   [
     "../../handbook/guru/assets/images/open-repair-ticket/",
     "https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/open-repair-ticket/",
@@ -20,6 +33,12 @@ const replacements = new Map([
   ],
 ])
 
+if (!fs.existsSync(root)) {
+  throw new Error(`Quartz output directory not found: ${root}`)
+}
+
+let changedFiles = 0
+
 function walk(dir) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const fullPath = path.join(dir, entry.name)
@@ -27,12 +46,17 @@ function walk(dir) {
       walk(fullPath)
     } else if (entry.isFile() && entry.name.endsWith(".html")) {
       let html = fs.readFileSync(fullPath, "utf8")
+      const original = html
       for (const [from, to] of replacements) {
         html = html.split(from).join(to)
       }
-      fs.writeFileSync(fullPath, html)
+      if (html !== original) {
+        changedFiles += 1
+        fs.writeFileSync(fullPath, html)
+      }
     }
   }
 }
 
 walk(root)
+console.log(`Patched ${changedFiles} HTML files in ${root}`)
