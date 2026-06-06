@@ -5,7 +5,7 @@
 - **מטרה:** למצוא במערכת את רשומת המכשיר שעליו צריך לבצע פעולה.
 - **למי זה מיועד:** כל מי שצריך לאתר מכשיר לתיקון, לבדיקה, להחלפה, או לתיעוד.
 - **מתי להשתמש:** לפני פתיחת קריאת תיקון או כל פעולה אחרת שצריכה להתבצע על מכשיר מסוים.
-- **זמן משוער:** 1 עד 3 דקות.
+- **זמן משוער:** 1 עד 2 דקות.
 
 ## לפני שמתחילים
 
@@ -18,29 +18,19 @@
 
 ## שלבים
 
-### שלב 1: כניסה לחיפוש מכשירים
+### שלב 1: חיפוש משולחן העבודה
 
 להיכנס לשולחן העבודה ולבצע חיפוש לפי המספר הסיראלי של המכשיר.
 
-![גביית תשלום](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/locate-specific-device/serial-input-desktop.gif)
+![שדה סיריאלי שולחן עבודה](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/locate-specific-device/serial-input-desktop.gif)
 
-![יש להוסיף כאן צילום מסך](../assets/images/locate-specific-device/device-search.png)
+### שלב 2: חיפוש מלאי
 
-### שלב 2: חיפוש לפי מזהה
+במידה והמכשיר לא עולה לאחר חיפוש בשולחן העבודה בשלב 1, המכשיר לא יושב על רשומה של לקוח. 
+נחפש אותו מלאי על ידי כניסה ל"ריכוז נתונים פריט סיראלי" וביצוע חיפוס עם הסיריאלי.
 
-לחפש לפי מספר סידורי, מספר עובד, או מזהה אחר שקיים על המכשיר.
+![שדה סיריאלי דף איתור נתונים פריט סיריאלי](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/locate-specific-device/serial-input-locate-serial-info.gif)
 
-**צילום מסך נדרש כאן:** שדה החיפוש עם הערך שהוזן
-
-![יש להוסיף כאן צילום מסך](../assets/images/locate-specific-device/search-by-identifier.png)
-
-### שלב 3: פתיחת רשומת המכשיר
-
-לוודא שהתוצאה מתאימה למכשיר הנכון, ואז לפתוח את רשומת המכשיר.
-
-**צילום מסך נדרש כאן:** תוצאת החיפוש ורשומת המכשיר
-
-![יש להוסיף כאן צילום מסך](../assets/images/locate-specific-device/device-record.png)
 
 ## איך יודעים שסיימנו
 
