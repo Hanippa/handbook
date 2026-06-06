@@ -1,7 +1,11 @@
 const fs = require("fs")
 const path = require("path")
 
-const root = process.env.QUARTZ_OUTPUT_DIR || "public"
+const rootCandidates = [
+  process.env.QUARTZ_OUTPUT_DIR,
+  "public",
+  "_site",
+].filter(Boolean)
 const replacements = new Map([
   ['<html lang="en" dir="ltr">', '<html lang="he" dir="rtl">'],
   ['<html lang="en">', '<html lang="he" dir="rtl">'],
@@ -33,8 +37,11 @@ const replacements = new Map([
   ],
 ])
 
-if (!fs.existsSync(root)) {
-  throw new Error(`Quartz output directory not found: ${root}`)
+const root = rootCandidates.find((candidate) => fs.existsSync(candidate))
+
+if (!root) {
+  console.log(`No Quartz output directory found. Checked: ${rootCandidates.join(", ")}`)
+  process.exit(0)
 }
 
 let changedFiles = 0
