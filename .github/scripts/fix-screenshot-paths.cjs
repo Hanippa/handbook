@@ -75,12 +75,28 @@ function walk(dir) {
       for (const [from, to] of replacements) {
         html = html.split(from).join(to)
       }
+      html = relativizeRootAssets(html, fullPath)
       if (html !== original) {
         changedFiles += 1
         fs.writeFileSync(fullPath, html)
       }
     }
   }
+}
+
+function relativizeRootAssets(html, fullPath) {
+  const relativeFilePath = path.relative(root, fullPath).split(path.sep).join("/")
+  const dir = path.posix.dirname(relativeFilePath)
+  const prefix = dir === "." ? "" : `${path.posix.relative(dir, ".")}/`
+  const homeHref = dir === "." ? "." : prefix.slice(0, -1)
+
+  return html
+    .split('href="/index.css"').join(`href="${prefix}index.css"`)
+    .split('src="/prescript.js"').join(`src="${prefix}prescript.js"`)
+    .split('src="/postscript.js"').join(`src="${prefix}postscript.js"`)
+    .split('href="/static/').join(`href="${prefix}static/`)
+    .split('fetch("/static/').join(`fetch("${prefix}static/`)
+    .split('href="/">Handbook</a>').join(`href="${homeHref}">Handbook</a>`)
 }
 
 walk(root)
