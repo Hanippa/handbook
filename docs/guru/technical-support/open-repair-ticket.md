@@ -30,25 +30,25 @@
 
 אם צריך עזרה באיתור המכשיר, יש לעבור קודם למדריך [איתור מכשיר ספציפי](./locate-specific-device.md).
 
-![יש להוסיף כאן צילום מסך](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/open-repair-ticket/ticket-system-home.gif)
+![חוצץ תיקונים](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/open-repair-ticket/ticket-system-home.gif)
 
 ### שלב 2: מילוי פרטי הקריאה
 
 להזין את פרטי העובד, פרטי המכשיר, סיבת הכנסת המכשיר למעבדה, וקטגוריית התיקון המתאימה, למשל מכשיר לא נדלק, מסך תקול, סוללה נפוחה.
 
-![יש להוסיף כאן צילום מסך](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/open-repair-ticket/ticket-system-home-detailes.gif)
+![הוספת מידע](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/open-repair-ticket/ticket-system-home-detailes.gif)
 
 ### שלב 3: גביית תשלום עבור התיקון
 
 אם התיקון דורש תשלום, יש לבצע גבייה לפי מדריך [גביית תשלום](./collect-payment.md).
 
-![יש להוסיף כאן צילום מסך](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/open-repair-ticket/ticket-system-home-payment.gif)
+![גביית תשלום](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/open-repair-ticket/ticket-system-home-payment.gif)
 
 ### שלב 4: שליחה ושמירת מספר הקריאה
 
 לשלוח את הקריאה ולשמור את מספר הקריאה למעקב.
 
-**צילום מסך נדרש כאן:** מסך אישור או מספר הקריאה שנוצר
+![גביית תשלום](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/open-repair-ticket/ticket-system-home-open.gif)
 
 ## אם משהו שונה
 
