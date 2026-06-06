@@ -22,7 +22,6 @@ jobs:
           source: docs
           destination: public
           page_title: Handbook
-          quartz_custom_css: .github/quartz/custom.scss
 
       - name: Detect Quartz output directory
         run: |

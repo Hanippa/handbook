@@ -45,6 +45,41 @@ if (!root) {
 }
 
 let changedFiles = 0
+const customCss = `
+
+body,
+.page,
+.popover-hint,
+article,
+main {
+  direction: rtl;
+  text-align: right;
+}
+
+ul,
+ol {
+  padding-right: 1.5rem;
+  padding-left: 0;
+}
+
+li.task-list-item {
+  padding-right: 0.2rem;
+  padding-left: 0;
+}
+
+pre,
+code,
+kbd,
+samp {
+  direction: ltr;
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+`
 
 function walk(dir) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -66,4 +101,13 @@ function walk(dir) {
 }
 
 walk(root)
+
+const cssPath = path.join(root, "index.css")
+if (fs.existsSync(cssPath)) {
+  const css = fs.readFileSync(cssPath, "utf8")
+  if (!css.includes("direction: rtl")) {
+    fs.writeFileSync(cssPath, `${css}${customCss}`)
+  }
+}
+
 console.log(`Patched ${changedFiles} HTML files in ${root}`)
