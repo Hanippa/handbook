@@ -50,8 +50,6 @@
 
 **צילום מסך נדרש כאן:** מסך אישור או מספר הקריאה שנוצר
 
-![יש להוסיף כאן צילום מסך](../assets/images/open-repair-ticket/ticket-submitted.png)
-
 ## אם משהו שונה
 
 <details>
