@@ -24,6 +24,13 @@ jobs:
           page_title: Handbook
           quartz_custom_css: .github/quartz/custom.scss
 
+      - name: Fix published screenshot paths
+        shell: bash
+        run: |
+          find public -name '*.html' -type f -print0 | xargs -0 sed -i \
+            -e 's#../../handbook/guru/assets/images/open-repair-ticket/#https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/open-repair-ticket/#g' \
+            -e 's#../.././assets/images/open-repair-ticket/#https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/open-repair-ticket/#g'
+
       - name: Publish to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
         with:
