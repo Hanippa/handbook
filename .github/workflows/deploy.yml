@@ -35,7 +35,9 @@ jobs:
           fi
 
       - name: Fix published screenshot paths
-        run: node .github/scripts/fix-screenshot-paths.cjs
+        run: |
+          sudo chown -R "$USER":"$USER" "$QUARTZ_OUTPUT_DIR"
+          node .github/scripts/fix-screenshot-paths.cjs
 
       - name: Publish to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
