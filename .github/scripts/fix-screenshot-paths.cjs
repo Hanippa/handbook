@@ -63,6 +63,16 @@ img {
   height: auto;
 }
 `
+const lightModeScript = `
+try {
+  if (!localStorage.getItem("theme")) {
+    localStorage.setItem("theme", "light")
+  }
+  document.documentElement.setAttribute("saved-theme", localStorage.getItem("theme") || "light")
+} catch {
+  document.documentElement.setAttribute("saved-theme", "light")
+}
+`
 
 function walk(dir) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -106,6 +116,14 @@ if (fs.existsSync(cssPath)) {
   const css = fs.readFileSync(cssPath, "utf8")
   if (!css.includes("direction: rtl")) {
     fs.writeFileSync(cssPath, `${css}${customCss}`)
+  }
+}
+
+const prescriptPath = path.join(root, "prescript.js")
+if (fs.existsSync(prescriptPath)) {
+  const script = fs.readFileSync(prescriptPath, "utf8")
+  if (!script.includes('localStorage.setItem("theme", "light")')) {
+    fs.writeFileSync(prescriptPath, `${lightModeScript}\n${script}`)
   }
 }
 
