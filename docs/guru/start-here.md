@@ -5,6 +5,7 @@
 ## צריך לטפל במכשיר תקול
 
 - [פתיחת קריאת תיקון](./technical-support/open-repair-ticket.md)
+- [סגירת קריאת תיקון](./technical-support/close-repair-ticket.md)
 
 אם המכשיר לא שמיש והעובד חייב להמשיך לעבוד:
 

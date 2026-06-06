@@ -5,6 +5,7 @@
 ## תמיכה טכנית / Help Desk
 
 - [פתיחת קריאת תיקון](./technical-support/open-repair-ticket.md)
+- [סגירת קריאת תיקון](./technical-support/close-repair-ticket.md)
 - [מעבר למכשיר זמני](./device-lifecycle/switch-to-temporary-device.md)
 
 ## מנהל תחנות קצה / IT Admin

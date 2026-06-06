@@ -76,6 +76,7 @@
 ## מדריכים קשורים
 
 - [איתור מכשיר ספציפי](./locate-specific-device.md)
+- [סגירת קריאת תיקון](./close-repair-ticket.md)
 - [גביית תשלום](./collect-payment.md)
 - [מעבר למכשיר זמני](../device-lifecycle/switch-to-temporary-device.md)
 - [בחירה לפי משימה](../start-here.md)
