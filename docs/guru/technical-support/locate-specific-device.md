@@ -47,4 +47,5 @@
 ## מדריכים קשורים
 
 - [פתיחת קריאת תיקון](./open-repair-ticket.md)
-- [בחירה לפי משימה](../start-here.md)
+- [סגירת קריאת תיקון](./close-repair-ticket.md)
+- [גביית תשלום](./collect-payment.md)

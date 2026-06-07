@@ -28,7 +28,7 @@
 
 יש לציין בצורה ברורה מה התקלה או הממצא, ולסמן מי אחראי לתקלה: **היצרן** או **הלקוח**.
 
-![מילוי ממצאים](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/close-repair-ticket/close-repair-ticket-found.gif)
+![מילוי ממצאים|86](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/close-repair-ticket/close-repair-ticket-found.gif)
 
 ### שלב 2: כניסה לחוצץ תוצאות ומילוי תוצאות
 
@@ -52,9 +52,6 @@
 
 ## איך יודעים שסיימנו
 
-- [ ] הממצאים מולאו
-- [ ] סומן מי אחראי לתקלה: היצרן או הלקוח
-- [ ] תוצאות הטיפול מולאו
 - [ ] נשלח SMS ללקוח
 - [ ] קריאת התיקון נסגרה במערכת
 
