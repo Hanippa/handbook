@@ -32,22 +32,3 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-.sidebar,
-.sidebar.left,
-.sidebar.right,
-aside,
-button.reader-mode,
-button[aria-label*="Reader"],
-button[aria-label*="reader"] {
-  display: none !important;
-}
-
-.page,
-#quartz-body,
-.center,
-article {
-  max-width: 980px;
-  margin-left: auto;
-  margin-right: auto;
-}
