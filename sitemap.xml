@@ -1,16 +1,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://example.com/guru/technical-support/close-repair-ticket</loc>
-    <lastmod>2026-06-07T00:22:36.466Z</lastmod>
+    <loc>https://example.com/close-repair-ticket</loc>
+    <lastmod>2026-06-07T00:27:03.188Z</lastmod>
   </url><url>
-    <loc>https://example.com/guru/technical-support/collect-payment</loc>
-    <lastmod>2026-06-07T00:22:36.467Z</lastmod>
-  </url><url>
-    <loc>https://example.com/guru/technical-support/locate-specific-device</loc>
-    <lastmod>2026-06-07T00:22:36.467Z</lastmod>
-  </url><url>
-    <loc>https://example.com/guru/technical-support/open-repair-ticket</loc>
-    <lastmod>2026-06-07T00:22:36.467Z</lastmod>
+    <loc>https://example.com/collect-payment</loc>
+    <lastmod>2026-06-07T00:27:03.189Z</lastmod>
   </url><url>
     <loc>https://example.com/</loc>
-    <lastmod>2026-06-07T00:22:36.467Z</lastmod>
+    <lastmod>2026-06-07T00:27:03.219Z</lastmod>
+  </url><url>
+    <loc>https://example.com/locate-specific-device</loc>
+    <lastmod>2026-06-07T00:27:03.219Z</lastmod>
+  </url><url>
+    <loc>https://example.com/open-repair-ticket</loc>
+    <lastmod>2026-06-07T00:27:03.220Z</lastmod>
   </url></urlset>

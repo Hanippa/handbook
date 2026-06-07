@@ -6,35 +6,35 @@
       <description>Last 10 notes on Handbook</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>collect-payment</title>
-    <link>https://example.com/guru/technical-support/collect-payment</link>
-    <guid>https://example.com/guru/technical-support/collect-payment</guid>
-    <description><![CDATA[ גביית תשלום מתי משתמשים במדריך הזה מטרה: לגבות ולתעד תשלום עבור שירות, תיקון, מוצר, חיוב, או כל פעולה אחרת שדורשת תשלום. ]]></description>
-    <pubDate>Sun, 07 Jun 2026 00:22:36 GMT</pubDate>
-  </item><item>
-    <title>locate-specific-device</title>
-    <link>https://example.com/guru/technical-support/locate-specific-device</link>
-    <guid>https://example.com/guru/technical-support/locate-specific-device</guid>
-    <description><![CDATA[ איתור מכשיר ספציפי מתי משתמשים במדריך הזה מטרה: למצוא במערכת את רשומת המכשיר שעליו צריך לבצע פעולה. ]]></description>
-    <pubDate>Sun, 07 Jun 2026 00:22:36 GMT</pubDate>
-  </item><item>
     <title>open-repair-ticket</title>
-    <link>https://example.com/guru/technical-support/open-repair-ticket</link>
-    <guid>https://example.com/guru/technical-support/open-repair-ticket</guid>
+    <link>https://example.com/open-repair-ticket</link>
+    <guid>https://example.com/open-repair-ticket</guid>
     <description><![CDATA[ פתיחת קריאת תיקון מתי משתמשים במדריך הזה מטרה: לפתוח קריאת תיקון עבור כל מכשיר שנכנס למעבדה. ]]></description>
-    <pubDate>Sun, 07 Jun 2026 00:22:36 GMT</pubDate>
+    <pubDate>Sun, 07 Jun 2026 00:27:03 GMT</pubDate>
   </item><item>
     <title>index</title>
     <link>https://example.com/</link>
     <guid>https://example.com/</guid>
     <description><![CDATA[ מדריכי החברה ברוכים הבאים למאגר המדריכים. כרגע מוצגים רק המדריכים המלוטשים שמוכנים לשימוש. ]]></description>
-    <pubDate>Sun, 07 Jun 2026 00:22:36 GMT</pubDate>
+    <pubDate>Sun, 07 Jun 2026 00:27:03 GMT</pubDate>
+  </item><item>
+    <title>locate-specific-device</title>
+    <link>https://example.com/locate-specific-device</link>
+    <guid>https://example.com/locate-specific-device</guid>
+    <description><![CDATA[ איתור מכשיר ספציפי מתי משתמשים במדריך הזה מטרה: למצוא במערכת את רשומת המכשיר שעליו צריך לבצע פעולה. ]]></description>
+    <pubDate>Sun, 07 Jun 2026 00:27:03 GMT</pubDate>
+  </item><item>
+    <title>collect-payment</title>
+    <link>https://example.com/collect-payment</link>
+    <guid>https://example.com/collect-payment</guid>
+    <description><![CDATA[ גביית תשלום מתי משתמשים במדריך הזה מטרה: לגבות ולתעד תשלום עבור שירות, תיקון, מוצר, חיוב, או כל פעולה אחרת שדורשת תשלום. ]]></description>
+    <pubDate>Sun, 07 Jun 2026 00:27:03 GMT</pubDate>
   </item><item>
     <title>close-repair-ticket</title>
-    <link>https://example.com/guru/technical-support/close-repair-ticket</link>
-    <guid>https://example.com/guru/technical-support/close-repair-ticket</guid>
+    <link>https://example.com/close-repair-ticket</link>
+    <guid>https://example.com/close-repair-ticket</guid>
     <description><![CDATA[ סגירת קריאת תיקון מתי משתמשים במדריך הזה מטרה: לתעד את סיום הטיפול שבוצע במכשיר ולסגור את קריאת התיקון במערכת. ]]></description>
-    <pubDate>Sun, 07 Jun 2026 00:22:36 GMT</pubDate>
+    <pubDate>Sun, 07 Jun 2026 00:27:03 GMT</pubDate>
   </item>
     </channel>
   </rss>
