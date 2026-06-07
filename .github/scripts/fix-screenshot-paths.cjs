@@ -58,38 +58,15 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-.sidebar,
-.sidebar.left,
-.sidebar.right,
-aside,
-button.reader-mode,
-button[aria-label*="Reader"],
-button[aria-label*="reader"] {
-  display: none !important;
-}
-
-.page,
-#quartz-body,
-.center,
-article {
-  max-width: 980px;
-  margin-left: auto;
-  margin-right: auto;
-}
 `
 const lightModeScript = `
 try {
   if (!localStorage.getItem("theme")) {
     localStorage.setItem("theme", "light")
   }
-  localStorage.setItem("reader-mode", "true")
-  localStorage.setItem("readerMode", "true")
   document.documentElement.setAttribute("saved-theme", localStorage.getItem("theme") || "light")
-  document.documentElement.classList.add("reader-mode")
 } catch {
   document.documentElement.setAttribute("saved-theme", "light")
-  document.documentElement.classList.add("reader-mode")
 }
 `
 
@@ -140,9 +117,16 @@ if (fs.existsSync(cssPath)) {
 
 const prescriptPath = path.join(root, "prescript.js")
 if (fs.existsSync(prescriptPath)) {
-  const script = fs.readFileSync(prescriptPath, "utf8")
+  let script = fs.readFileSync(prescriptPath, "utf8")
   if (!script.includes('localStorage.setItem("theme", "light")')) {
-    fs.writeFileSync(prescriptPath, `${lightModeScript}\n${script}`)
+    script = `${lightModeScript}\n${script}`
+  }
+  script = script.replace(
+    'var d=!1,a=n=>{let e=new CustomEvent("readermodechange"',
+    'var d=!0,a=n=>{let e=new CustomEvent("readermodechange"',
+  )
+  if (script !== fs.readFileSync(prescriptPath, "utf8")) {
+    fs.writeFileSync(prescriptPath, script)
   }
 }
 
