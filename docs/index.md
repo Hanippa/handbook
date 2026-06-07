@@ -5,6 +5,6 @@
 ## מדריכים
 
 - [פתיחת קריאת תיקון](./docs/open-repair-ticket.md)
-- [סגירת קריאת תיקון](./docs/close-repair-ticket.md)
-- [איתור מכשיר ספציפי](./docs/locate-specific-device.md)
-- [גביית תשלום](./docs/collect-payment.md)
+- [סגירת קריאת תיקון](./close-repair-ticket.md)
+- [איתור מכשיר ספציפי](./locate-specific-device.md)
+- [גביית תשלום](./collect-payment.md)
