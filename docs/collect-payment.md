@@ -26,19 +26,19 @@
 
 למלא את פרטי הקבלה של המשלם: שם, מספר טלפון, מספר תעודת זהות או מספר עסק, וכתובת.
 
-![פרטי קבלה](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/collect-payment/collect-payment-customer-information.gif)
+![פרטי קבלה](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/assets/images/collect-payment/collect-payment-customer-information.gif)
 
 ### שלב 2: בחירת מק"ט לתשלום
 
 למלא את המק"ט המתאים לתשלום. אם אין מק"ט ייעודי, להשאיר את מק"ט ברירת המחדל שמופיע במערכת.
 
-![בחירת מק"ט לתשלום](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/collect-payment/collect-payment-sku-choice.gif)
+![בחירת מק"ט לתשלום](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/assets/images/collect-payment/collect-payment-sku-choice.gif)
 
 ### שלב 3: לחיצה על פעולת קבלת תשלום
 
 לאחר מילוי פרטי הקבלה ובחירת המק"ט, ללחוץ על כפתור הפעולה לקבלת תשלום.
 
-![כפתור קבלת תשלום](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/collect-payment/collect-payment-action-button.gif)
+![כפתור קבלת תשלום](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/assets/images/collect-payment/collect-payment-action-button.gif)
 
 ### שלב 4: בחירת אמצעי תשלום ומילוי הפרטים
 
@@ -50,13 +50,13 @@
 
 אפשר לשלב כמה אמצעי תשלום כדי להגיע לסכום המלא שמופיע בראש המסך.
 
-![בחירת אמצעי תשלום](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/collect-payment/collect-payment-choose-payment-method.gif)
+![בחירת אמצעי תשלום](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/assets/images/collect-payment/collect-payment-choose-payment-method.gif)
 
 ### שלב 5: אישור קבלת התשלום
 
 לאשר את קבלת התשלום במערכת ולוודא שהסכום המלא התקבל.
 
-![אישור קבלת תשלום](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/collect-payment/collect-payment-accept-payment.gif)
+![אישור קבלת תשלום](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/assets/images/collect-payment/collect-payment-accept-payment.gif)
 
 ### שלב 6: שליחת הקבלה ללקוח
 

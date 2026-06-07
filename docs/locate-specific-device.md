@@ -24,7 +24,7 @@
 
 במידה והמכשיר נמצא, יש לפתוח את רשומת המכשיר המתאימה ולהמשיך בתהליך העבודה הרלוונטי.
 
-![שדה סיריאלי שולחן עבודה](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/locate-specific-device/serial-input-desktop.gif)
+![שדה סיריאלי שולחן עבודה](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/assets/images/locate-specific-device/serial-input-desktop.gif)
 
 ### שלב 2: חיפוש מלאי
 
@@ -36,7 +36,7 @@
 2. לבצע חיפוש באמצעות המספר הסידורי של המכשיר
 3. לאתר את הרשומה המתאימה
 
-![שדה סיריאלי דף איתור נתונים פריט סיריאלי](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/locate-specific-device/serial-input-locate-serial-info.gif)
+![שדה סיריאלי דף איתור נתונים פריט סיריאלי](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/assets/images/locate-specific-device/serial-input-locate-serial-info.gif)
 
 
 ## איך יודעים שסיימנו

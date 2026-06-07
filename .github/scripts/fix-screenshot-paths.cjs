@@ -11,12 +11,8 @@ const replacements = new Map([
   ['<html lang="en" dir="ltr">', '<html lang="he" dir="rtl">'],
   ['<html lang="en">', '<html lang="he" dir="rtl">'],
   [
-    "../../handbook/guru/assets/images/open-repair-ticket/",
-    "https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/open-repair-ticket/",
-  ],
-  [
     "../.././assets/images/open-repair-ticket/",
-    "https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/open-repair-ticket/",
+    "https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/assets/images/open-repair-ticket/",
   ],
 ])
 
@@ -62,15 +58,38 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.sidebar,
+.sidebar.left,
+.sidebar.right,
+aside,
+button.reader-mode,
+button[aria-label*="Reader"],
+button[aria-label*="reader"] {
+  display: none !important;
+}
+
+.page,
+#quartz-body,
+.center,
+article {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
 `
 const lightModeScript = `
 try {
   if (!localStorage.getItem("theme")) {
     localStorage.setItem("theme", "light")
   }
+  localStorage.setItem("reader-mode", "true")
+  localStorage.setItem("readerMode", "true")
   document.documentElement.setAttribute("saved-theme", localStorage.getItem("theme") || "light")
+  document.documentElement.classList.add("reader-mode")
 } catch {
   document.documentElement.setAttribute("saved-theme", "light")
+  document.documentElement.classList.add("reader-mode")
 }
 `
 
