@@ -16,32 +16,39 @@
 
 ## מה צריך להכין
 
-- מספר קריאת התיקון
 - הממצאים שנמצאו במכשיר
 - תוצאת הטיפול
 - מספר טלפון למשלוח SMS ללקוח
 
 ## שלבים
 
-### שלב 1: מילוי ממצאים
+### שלב 1: כניסה לחוצץ ממצאים ומילוי ממצאים
 
-למלא את שדה **ממצאים** לפי מה שנמצא במכשיר.
+ללחוץ על חוצץ **ממצאים**, ולמלא את שדה **ממצאים** לפי מה שנמצא במכשיר.
 
 יש לציין בצורה ברורה מה התקלה או הממצא, ולסמן מי אחראי לתקלה: **היצרן** או **הלקוח**.
 
-### שלב 2: מילוי תוצאות
+![מילוי ממצאים](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/close-repair-ticket/close-repair-ticket-found.gif)
 
-למלא את שדה **תוצאות** לפי מה שבוצע במכשיר.
+### שלב 2: כניסה לחוצץ תוצאות ומילוי תוצאות
+
+ללחוץ על חוצץ **תוצאות**, ולמלא את שדה **תוצאות** לפי מה שבוצע במכשיר.
 
 לדוגמה: החלפת חלק, ניקוי, עדכון, בדיקה ללא תקלה, או הכרזה שהמכשיר אינו בר תיקון.
+
+![מילוי תוצאות](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/close-repair-ticket/close-repair-ticket-results.gif)
 
 ### שלב 3: שליחת SMS ללקוח
 
 לשלוח ללקוח SMS שמעדכן שקריאת התיקון הסתיימה או שהמכשיר מוכן להמשך טיפול או איסוף.
 
-### שלב 4: סגירת התיקון
+![שליחת SMS ללקוח](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/close-repair-ticket/close-repair-ticket-send-sms.gif)
 
-לאחר שהממצאים, התוצאות והעדכון ללקוח תועדו, לסגור את קריאת התיקון במערכת.
+### שלב 4: כניסה לחוצץ סגירת תיקון וסגירת התיקון
+
+לאחר שהממצאים, התוצאות והעדכון ללקוח תועדו, ללחוץ על חוצץ **סגירת תיקון** ולסגור את קריאת התיקון במערכת.
+
+![סגירת קריאת תיקון](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/guru/assets/images/close-repair-ticket/close-repair-ticket-close-action.gif)
 
 ## איך יודעים שסיימנו
 
