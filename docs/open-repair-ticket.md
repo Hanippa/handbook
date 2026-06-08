@@ -46,7 +46,7 @@
 
 ### שלב 4: אישור תעודת התיקון
 
-לשלוח את הקריאה ולשמור את מספר הקריאה למעקב.
+לחיצה על אישור בכדי לאשר את יצירת הקריאה במערכת. 
 
 ![פתיחת קריאה](https://raw.githubusercontent.com/Hanippa/handbook/gh-pages/assets/images/open-repair-ticket/ticket-system-home-open.gif)
 
