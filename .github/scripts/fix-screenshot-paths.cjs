@@ -59,6 +59,39 @@ img {
   height: auto;
 }
 `
+const temporaryAccessBlockCss = `
+
+/* Temporary visual access block. The source content remains in GitHub. */
+body > * {
+  visibility: hidden !important;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 2147483646;
+  visibility: visible;
+  background: #f7f4ef;
+}
+
+body::after {
+  content: "גישה חסומה זמנית";
+  position: fixed;
+  inset: 0;
+  z-index: 2147483647;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+  visibility: visible;
+  color: #1d2528;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: clamp(1.35rem, 3vw, 2.25rem);
+  font-weight: 650;
+  line-height: 1.35;
+  text-align: center;
+}
+`
 const lightModeScript = `
 try {
   if (!localStorage.getItem("theme")) {
@@ -110,8 +143,15 @@ walk(root)
 const cssPath = path.join(root, "index.css")
 if (fs.existsSync(cssPath)) {
   const css = fs.readFileSync(cssPath, "utf8")
-  if (!css.includes("direction: rtl")) {
-    fs.writeFileSync(cssPath, `${css}${customCss}`)
+  let nextCss = css
+  if (!nextCss.includes("direction: rtl")) {
+    nextCss = `${nextCss}${customCss}`
+  }
+  if (!nextCss.includes("Temporary visual access block")) {
+    nextCss = `${nextCss}${temporaryAccessBlockCss}`
+  }
+  if (nextCss !== css) {
+    fs.writeFileSync(cssPath, nextCss)
   }
 }
 
